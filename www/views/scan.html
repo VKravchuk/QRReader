@@ -1,0 +1,11 @@
+<ion-view title="Scan">
+    <ion-content class="has-header">
+        <div class="card">
+            <div class="item item-text-wrap">
+                Press button scan to read data from your QR code.
+                <button class="button button-block button-stable" ng-click="scanBarcode()">Scan</button>
+            </div>
+            <ion-toggle ng-model="isRecordRemote.checked" toggle-class="toggle-calm">Remote record</ion-toggle>
+        </div>
+    </ion-content>
+</ion-view>
